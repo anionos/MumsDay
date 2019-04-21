@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mumsday.GiftItemActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/birthday"
+        android:scaleType="centerCrop"/>
+
+         <RadioGroup
+             android:id="@+id/radiogroup"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+             android:orientation="vertical"
+             android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/optionA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="15dp"
+                android:text="Handbag"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/optionB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="15dp"
+                android:text="Earing"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/optionC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="15dp"
+                android:text="Sandals"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/optionD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@color/colorAccent"
+                android:paddingLeft="15dp"
+                android:text="Wrist Watch"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+         </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="388dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
