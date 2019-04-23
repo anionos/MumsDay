@@ -8,10 +8,14 @@
     tools:context="com.example.user.mumsday.GiftItemActivity">
 
     <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/birthday"
-        android:scaleType="centerCrop"/>
+        android:layout_marginTop="188dp"
+        android:src="@drawable/birth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radiogroup" />
 
          <RadioGroup
              android:id="@+id/radiogroup"
@@ -77,11 +81,12 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="388dp"
+        android:layout_marginTop="0dp"
         android:backgroundTint="@color/colorAccent"
         android:text="Next"
+        android:onClick="next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
 </android.support.constraint.ConstraintLayout>
